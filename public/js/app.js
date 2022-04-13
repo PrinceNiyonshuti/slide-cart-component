@@ -19391,6 +19391,14 @@ __webpack_require__.r(__webpack_exports__);
   mounted: function mounted() {
     var _this = this;
 
+    var prevButton = document.getElementById("data-carousel-prev");
+    var nextButton = document.getElementById("data-carousel-next");
+    prevButton.addEventListener("click", function () {
+      carousel.prev();
+    });
+    nextButton.addEventListener("click", function () {
+      carousel.next();
+    });
     var i = 0;
     setInterval(function () {
       if (i > _this.images.length - 1) {
@@ -19716,59 +19724,62 @@ var _withScopeId = function _withScopeId(n) {
 };
 
 var _hoisted_1 = {
-  "class": "relative slide"
+  id: "default-carousel",
+  "class": "relative",
+  "data-carousel": "static"
 };
 var _hoisted_2 = {
-  "class": "carousel-indicators absolute bottom-0 flex h-24 w-full justify-center items-center"
+  "class": "overflow-hidden relative h-96 sm:h-64 xl:h-[450px] 2xl:h-96"
 };
-var _hoisted_3 = {
-  "class": "z-50 flex w-4/12 justify-center"
-};
-var _hoisted_4 = {
-  "class": "carousel-inner relative overflow-hidden w-full"
-};
-var _hoisted_5 = ["id"];
 
-var _hoisted_6 = /*#__PURE__*/_withScopeId(function () {
-  return /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("button", {
-    "class": "absolute bottom-[8rem] left-[12rem] flex rounded-[3.31px] bg-white px-6 py-2"
-  }, "Shop Now", -1
-  /* HOISTED */
-  );
-});
-
-var _hoisted_7 = /*#__PURE__*/_withScopeId(function () {
+var _hoisted_3 = /*#__PURE__*/_withScopeId(function () {
   return /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
-    "class": "block w-full h-[38rem]",
     src: _public_images_1_png__WEBPACK_IMPORTED_MODULE_1__["default"],
-    alt: "First slide"
+    "class": "block absolute top-1/2 left-1/2 w-full h-full -translate-x-1/2 -translate-y-1/2",
+    alt: "..."
   }, null, -1
   /* HOISTED */
   );
 });
 
-var _hoisted_8 = [_hoisted_6, _hoisted_7];
+var _hoisted_4 = /*#__PURE__*/_withScopeId(function () {
+  return /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("button", {
+    "class": "object-fill absolute bottom-[4rem] left-[12rem] flex rounded-[3.31px] bg-white px-6 py-2"
+  }, " Shop Now ", -1
+  /* HOISTED */
+  );
+});
+
+var _hoisted_5 = [_hoisted_3, _hoisted_4];
+var _hoisted_6 = {
+  "class": "flex absolute bottom-5 left-1/2 z-30 space-x-3 -translate-x-1/2"
+};
+
+var _hoisted_7 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<button type=\"button\" class=\"flex absolute top-0 left-0 z-30 justify-center items-center px-4 h-full cursor-pointer group focus:outline-none\" data-carousel-prev=\"\" data-v-6a63e488><span class=\"inline-flex justify-center items-center w-8 h-8 rounded-full sm:w-10 sm:h-10 bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none\" data-v-6a63e488><svg class=\"w-5 h-5 text-white sm:w-6 sm:h-6 dark:text-gray-800\" fill=\"none\" stroke=\"currentColor\" viewBox=\"0 0 24 24\" xmlns=\"http://www.w3.org/2000/svg\" data-v-6a63e488><path stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M15 19l-7-7 7-7\" data-v-6a63e488></path></svg><span class=\"hidden\" data-v-6a63e488>Previous</span></span></button><button type=\"button\" class=\"flex absolute top-0 right-0 z-30 justify-center items-center px-4 h-full cursor-pointer group focus:outline-none\" data-carousel-next=\"\" data-v-6a63e488><span class=\"inline-flex justify-center items-center w-8 h-8 rounded-full sm:w-10 sm:h-10 bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none\" data-v-6a63e488><svg class=\"w-5 h-5 text-white sm:w-6 sm:h-6 dark:text-gray-800\" fill=\"none\" stroke=\"currentColor\" viewBox=\"0 0 24 24\" xmlns=\"http://www.w3.org/2000/svg\" data-v-6a63e488><path stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M9 5l7 7-7 7\" data-v-6a63e488></path></svg><span class=\"hidden\" data-v-6a63e488>Next</span></span></button>", 2);
+
 function render(_ctx, _cache, $props, $setup, $data, $options) {
   var _component_Nav = (0,vue__WEBPACK_IMPORTED_MODULE_0__.resolveComponent)("Nav");
 
-  return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)(vue__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_Nav), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_1, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_2, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("ol", _hoisted_3, [((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(true), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)(vue__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, (0,vue__WEBPACK_IMPORTED_MODULE_0__.renderList)(_ctx.images, function (img, i) {
-    return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("li", {
-      key: i,
-      "class": "md:w-4 md:h-4 bg-gray-300 rounded-full cursor-pointer mx-2"
+  return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)(vue__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_Nav), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_1, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_2, [((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(true), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)(vue__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, (0,vue__WEBPACK_IMPORTED_MODULE_0__.renderList)(_ctx.images, function (image) {
+    return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", {
+      "class": "duration-700 ease-in-out absolute inset-0 transition-all transform translate-x-0 z-20",
+      "data-carousel-item": "",
+      key: image.id
+    }, _hoisted_5);
+  }), 128
+  /* KEYED_FRAGMENT */
+  ))]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_6, [((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(true), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)(vue__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, (0,vue__WEBPACK_IMPORTED_MODULE_0__.renderList)(_ctx.images, function (image) {
+    return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("button", {
+      type: "button",
+      "class": "w-3 h-3 rounded-full bg-white dark:bg-gray-800",
+      "aria-current": "true",
+      "aria-label": "Slide 1",
+      "data-carousel-slide-to": "0",
+      key: image.id
     });
   }), 128
   /* KEYED_FRAGMENT */
-  ))])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_4, [((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(true), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)(vue__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, (0,vue__WEBPACK_IMPORTED_MODULE_0__.renderList)(_ctx.images, function (img, i) {
-    return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", {
-      id: "slide-".concat(i),
-      key: i,
-      "class": (0,vue__WEBPACK_IMPORTED_MODULE_0__.normalizeClass)(["".concat(_ctx.active === i ? 'active' : 'left-full'), "carousel-item inset-0 relative w-full h-[38rem] transform transition-all duration-500 ease-in-out"])
-    }, _hoisted_8, 10
-    /* CLASS, PROPS */
-    , _hoisted_5);
-  }), 128
-  /* KEYED_FRAGMENT */
-  ))])])], 64
+  ))]), _hoisted_7])], 64
   /* STABLE_FRAGMENT */
   );
 }
@@ -19987,7 +19998,7 @@ __webpack_require__.r(__webpack_exports__);
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(function(i){return i[1]});
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, "\n.left-full[data-v-6a63e488] {\n    left: -100%;\n}\n.carousel-item[data-v-6a63e488] {\n    float: left;\n    position: relative;\n    display: block;\n    width: 100%;\n    margin-right: -100%;\n    -webkit-backface-visibility: hidden;\n            backface-visibility: hidden;\n}\n.carousel-item.active[data-v-6a63e488] {\n    left: 0;\n}\n", ""]);
+___CSS_LOADER_EXPORT___.push([module.id, "\n/* .left-full {\n    left: -100%;\n}\n\n.carousel-item {\n    float: left;\n    position: relative;\n    display: block;\n    width: 100%;\n    margin-right: -100%;\n    backface-visibility: hidden;\n}\n\n.carousel-item.active {\n    left: 0;\n} */\n", ""]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
