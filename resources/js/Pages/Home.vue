@@ -17,7 +17,7 @@
                     alt="..."
                 />
                 <button
-                    class="object-fill absolute bottom-[4rem] left-[12rem] flex rounded-[3.31px] bg-white px-6 py-2"
+                    class="object-fill absolute bottom-[4rem] left-[12rem] sm:left-[1rem] flex rounded-[3.31px] bg-white px-6 py-2"
                 >
                     Shop Now
                 </button>
@@ -129,21 +129,4 @@ export default {
     },
 };
 </script>
-<style scoped>
-/* .left-full {
-    left: -100%;
-}
 
-.carousel-item {
-    float: left;
-    position: relative;
-    display: block;
-    width: 100%;
-    margin-right: -100%;
-    backface-visibility: hidden;
-}
-
-.carousel-item.active {
-    left: 0;
-} */
-</style>
