@@ -21,6 +21,11 @@ Route::get('/', function () {
 Route::get('/Cart', function () {
     return Inertia::render('Cart');
 });
+
 Route::get('/Product', function () {
     return Inertia::render('Product');
+});
+
+Route::get('/SpecialProduct', function () {
+    return Inertia::render('SpecialProduct');
 });

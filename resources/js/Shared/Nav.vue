@@ -18,13 +18,13 @@
         </div>
         <div class="flex flex-row mr-8 hidden md:flex">
             <div class="text-gray-900 font-bold text-center px-4 py-2 m-2">
-                Home
+                <Link href="/">Home</Link>
             </div>
             <div class="text-gray-900 font-bold text-center px-4 py-2 m-2">
-                Categories
+                <Link href="/Product">Categories</Link>
             </div>
             <div class="text-gray-900 font-bold text-center px-4 py-2 m-2">
-                Shops
+                <Link href="/SpecialProduct">Shops</Link>
             </div>
             <Link
                 href="/Cart"

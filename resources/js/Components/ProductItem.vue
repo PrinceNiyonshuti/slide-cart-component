@@ -5,12 +5,12 @@
                 <div class="text-slate-700  sm:px-0 md:px-0 lg:pr-4 mb-6" >
                     <div class="flex sm:flex space-x-4 md:items-center sm:space-x-0 md:space-x-0 lg:space-x-5 items-center mr-0 md:mr-0 lg:mr-8">
                         <div class="">
-                            <img class="rounded-md w-64 md:w-80 lg:w-60 border border-gray-200" src="https://m.media-amazon.com/images/I/81OoqT9zwXL._AC_SL1500_.jpg" alt="brad" />
+                            <img class="rounded-md w-80 h-32 md:w-80 md:h-38 lg:w-60 lg:h-36 border border-gray-200" src="https://m.media-amazon.com/images/I/81OoqT9zwXL._AC_SL1500_.jpg" alt="brad" />
                         </div>
                         <div class="md:px-4 md:h-full">
                             <h1 class="text-xl font-bold md:text-base lg:text-xl">Cesar Classics</h1>
                             <p class=" tracking-tighter text-sm md:max-w-lg md:text-sm md:tracking-tighter lg:text-base lg:tracking-normal">The wide ranging nature of items and practices to which the term creative can be sensibly applied </p>
-                            <p class=" font-medium md:text-base lg:text-xl">24$</p>
+                            <p class=" font-medium md:text-base lg:text-xl">24 €</p>
                             <div class="flex items-center justify-between ">
                                 <button class="flex items-center font-semibold text-orange-500 text-base md:text-sm lg:text-base">
                                     <svg class="flex-1 w-4 md:w-4 lg:w-6 pr-1 pt-1 " viewBox="0 0 15 15" xmlns="http://www.w3.org/2000/svg">
