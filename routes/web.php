@@ -29,3 +29,7 @@ Route::get('/Product', function () {
 Route::get('/SpecialProduct', function () {
     return Inertia::render('SpecialProduct');
 });
+
+Route::get('/Shop', function () {
+    return Inertia::render('Shop');
+});

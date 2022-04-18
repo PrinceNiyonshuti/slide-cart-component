@@ -24,7 +24,10 @@
                 <Link href="/Product">Categories</Link>
             </div>
             <div class="text-gray-900 font-bold text-center px-4 py-2 m-2">
-                <Link href="/SpecialProduct">Shops</Link>
+                <Link href="/SpecialProduct">Special Categories</Link>
+            </div>
+            <div class="text-gray-900 font-bold text-center px-4 py-2 m-2">
+                <Link href="/Shop">Shops</Link>
             </div>
             <Link
                 href="/Cart"
