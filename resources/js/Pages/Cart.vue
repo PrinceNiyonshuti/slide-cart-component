@@ -1,5 +1,5 @@
 <template>
-    <!-- <Nav /> -->
+    <Nav />
     <div class="container p-8 mx-auto">
         <div class="w-full overflow-x-auto">
             <div class="my-2 mb-10">

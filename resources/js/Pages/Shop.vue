@@ -1,5 +1,5 @@
 <template>
-    <!-- <Nav /> -->
+    <Nav />
     <ShopHeaderDetail/>
 </template>
 <script>

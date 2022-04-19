@@ -6,7 +6,7 @@
         <div class="flex flex-wrap overflow-hidden px-4 sm:px-8 md:px-2 lg:px-8 xl:px-8 mx-auto">
             <div class="w-1/3  overflow-hidden sm:w-1/3 md:w-1/3 lg:w-1/5 xl:w-1/5">
                 <div class="absolute w-28 h-28 mx-auto md:w-36 md:h-36 md:px-6 lg:w-36 lg:h-36 lg:px-6">
-                    <img src="../../../public/images/h-logo.png" class="absolute w-fit h-fit bg-orange-600 -top-12 md:-top-16 lg:-top-16 border-4 border-danger rounded-full mx-auto " alt="" >
+                    <img src="../../../public/images/h-logo.png" class="absolute w-full h-full bg-orange-600 -top-12 md:-top-16 lg:-top-16 border-4 border-danger rounded-full mx-auto " alt="" >
                 </div>
             </div>
             <div class="w-2/3 flex justify-between overflow-hidden sm:w-2/3 md:w-2/3 lg:w-4/5 xl:w-4/5">

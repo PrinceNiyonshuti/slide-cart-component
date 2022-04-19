@@ -1,11 +1,7 @@
 <template>
-    <div
-        class="w-screen flex flex-row items-center p-1 justify-between bg-white shadow-lg"
-    >
+    <div class="w-full px-4 md:px-2 lg:px-8 flex flex-row items-center p-1 justify-between bg-white shadow-lg">
         <div class="ml-8 text-lg text-gray-700 hidden md:flex">CaniClub</div>
-        <span
-            class="w-screen md:w-1/3 h-10 bg-gray-200 cursor-pointer border border-gray-300 text-sm rounded-lg flex"
-        >
+        <span class=" h-10 bg-gray-200 cursor-pointer border border-gray-300 text-sm rounded-lg flex">
             <input
                 type="search"
                 name="serch"
@@ -17,21 +13,18 @@
             <i class="fas fa-bars"></i>
         </div>
         <div class="flex flex-row mr-8 hidden md:flex">
-            <div class="text-gray-900 font-bold text-center px-4 py-2 m-2">
+            <div class="text-gray-900 font-bold text-center px-2 py-2 m-2">
                 <Link href="/">Home</Link>
             </div>
-            <div class="text-gray-900 font-bold text-center px-4 py-2 m-2">
+            <div class="text-gray-900 font-bold text-center px-2 py-2 m-2">
                 <Link href="/Product">Categories</Link>
             </div>
-            <div class="text-gray-900 font-bold text-center px-4 py-2 m-2">
-                <Link href="/SpecialProduct">Special Categories</Link>
-            </div>
-            <div class="text-gray-900 font-bold text-center px-4 py-2 m-2">
+            <div class="text-gray-900 font-bold text-center px-2 py-2 m-2">
                 <Link href="/Shop">Shops</Link>
             </div>
             <Link
                 href="/Cart"
-                class="relative inline-block text-gray-700 text-center bg-gray-700 px-2 py-2 m-2 rounded-full"
+                class="relative inline-block text-gray-700 text-center bg-gray-400 px-2 py-2 m-2 rounded-full"
             >
                 <svg
                     class="flex-1 w-8 h-8 pl-1 pt-1 fill-white"
@@ -43,7 +36,7 @@
                 </svg>
             </Link>
             <Link
-                href="/"
+                href="/SpecialProduct"
                 class="relative inline-block text-gray-700 text-center bg-gray-500 px-2 py-2 m-2 rounded-full"
             >
                 <img
