@@ -5,9 +5,12 @@
                 {{ headerName }}
             </h2>
         </div>
-        <div class="relative my-2 mb-10 justify-items-end">
+        <div class="absolute right-4 my-2 mb-10 justify-items-end">
             <!-- Dropdown toggle button -->
-            <button @click="show = !show" class="invisible md:visible lg:visible bg-gray-200 font-medium rounded-lg text-sm px-4 py-2.5 text-center inline-flex items-start">
+            <button
+                @click="show = !show"
+                class="invisible md:visible lg:visible bg-gray-200 font-medium rounded-lg text-sm px-4 py-2.5 text-center inline-flex items-start"
+            >
                 <span class="mr-4">Best Selling</span>
                 <svg
                     class="w-5 h-5 text-indigo-100 dark:text-white"
@@ -23,7 +26,11 @@
                 </svg>
             </button>
 
-            <button @click="show = !show" class="md:hidden lg:hidden bg-gray-200 font-medium rounded-lg text-sm px-4 py-2.5 text-center inline-flex items-start">
+            <button
+                @click="show = !show"
+                v-on:click="away()"
+                class="md:hidden lg:hidden bg-gray-200 font-medium rounded-lg text-sm px-4 py-2.5 text-center inline-flex items-start"
+            >
                 <svg
                     width="20"
                     height="20"
@@ -39,7 +46,7 @@
             </button>
 
             <!-- Dropdown menu -->
-            <div v-show="show" class="absolute right-0 py-2 mt-2 bg-white rounded divide-y divide-gray-100 shadow w-40">
+            <div v-show="show" class="absolute z-40 right-0 py-2 mt-2 bg-white rounded divide-y divide-gray-100 shadow w-40" >
                 <ul class="py-1 text-sm" aria-labelledby="dropdownDefault">
                     <li>
                         <a href="#" class="block py-2 px-4 hover:bg-gray-100"

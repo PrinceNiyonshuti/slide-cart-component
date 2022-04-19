@@ -19586,6 +19586,12 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({
   components: {
     Link: _inertiajs_inertia_vue3__WEBPACK_IMPORTED_MODULE_0__.Link
+  },
+  data: function data() {
+    return {
+      show: false,
+      modal: false
+    };
   }
 });
 
@@ -19819,7 +19825,7 @@ var _hoisted_3 = {
   "class": "text-base md:text-2xl lg:text-3xl font-bold"
 };
 var _hoisted_4 = {
-  "class": "relative my-2 mb-10 justify-items-end"
+  "class": "absolute right-4 my-2 mb-10 justify-items-end"
 };
 
 var _hoisted_5 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("span", {
@@ -19858,7 +19864,7 @@ var _hoisted_8 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementV
 
 var _hoisted_9 = [_hoisted_8];
 var _hoisted_10 = {
-  "class": "absolute right-0 py-2 mt-2 bg-white rounded divide-y divide-gray-100 shadow w-40"
+  "class": "absolute z-40 right-0 py-2 mt-2 bg-white rounded divide-y divide-gray-100 shadow w-40"
 };
 
 var _hoisted_11 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<ul class=\"py-1 text-sm\" aria-labelledby=\"dropdownDefault\"><li><a href=\"#\" class=\"block py-2 px-4 hover:bg-gray-100\">Relevance</a></li><li><a href=\"#\" class=\"block py-2 px-4 hover:bg-gray-100\">Price: Low To High</a></li><li><a href=\"#\" class=\"block py-2 px-4 hover:bg-gray-100\">Price: High To Low</a></li><li><a href=\"#\" class=\"block py-2 px-4 hover:bg-gray-100\">Best Sellers</a></li><li><a href=\"#\" class=\"block py-2 px-4 hover:bg-gray-100\">New Arrivals</a></li></ul>", 1);
@@ -19873,9 +19879,11 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
     }),
     "class": "invisible md:visible lg:visible bg-gray-200 font-medium rounded-lg text-sm px-4 py-2.5 text-center inline-flex items-start"
   }, _hoisted_7), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("button", {
-    onClick: _cache[1] || (_cache[1] = function ($event) {
+    onClick: [_cache[1] || (_cache[1] = function ($event) {
       return _ctx.show = !_ctx.show;
-    }),
+    }), _cache[2] || (_cache[2] = function ($event) {
+      return _ctx.away();
+    })],
     "class": "md:hidden lg:hidden bg-gray-200 font-medium rounded-lg text-sm px-4 py-2.5 text-center inline-flex items-start"
   }, _hoisted_9), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" Dropdown menu "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.withDirectives)((0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_10, _hoisted_12, 512
   /* NEED_PATCH */
@@ -20230,30 +20238,144 @@ var _hoisted_1 = {
   "class": "w-full px-4 md:px-2 lg:px-8 flex flex-row items-center p-1 justify-between bg-white shadow-lg"
 };
 
-var _hoisted_2 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<div class=\"ml-8 text-lg text-gray-700 hidden md:flex\">CaniClub</div><span class=\"h-10 bg-gray-200 cursor-pointer border border-gray-300 text-sm rounded-lg flex\"><input type=\"search\" name=\"serch\" placeholder=\"Search item\" class=\"flex-grow px-4 rounded-lg text-sm focus:outline-none\"></span><div class=\"flex flex-row-reverse mr-4 ml-4 md:hidden\"><i class=\"fas fa-bars\"></i></div>", 3);
+var _hoisted_2 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<div class=\"w-1/3 sm:w-0/3 md:w-1/3 lg:w-1/3 ml-8 text-lg text-gray-700 hidden md:flex\"> CaniClub </div><div class=\"w-1/3 sm:w-0/3 md:w-1/3 lg:1/3 h-10 px-1 cursor-pointer border border-gray-300 text-sm rounded-lg flex justify-start hidden md:flex\"><div class=\"container flex justify-center items-center\"><svg class=\"w-fit h-6\" fill=\"currentColor\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\"><path d=\"M16.32 14.9l5.39 5.4a1 1 0 0 1-1.42 1.4l-5.38-5.38a8 8 0 1 1 1.41-1.41zM10 16a6 6 0 1 0 0-12 6 6 0 0 0 0 12z\"></path></svg><input type=\"search\" name=\"search\" placeholder=\"Search item\" class=\"w-fit flex-grow px-2 rounded-lg text-sm focus:outline-none\"></div></div>", 2);
 
-var _hoisted_5 = {
-  "class": "flex flex-row mr-8 hidden md:flex"
-};
-var _hoisted_6 = {
-  "class": "text-gray-900 font-bold text-center px-2 py-2 m-2"
+var _hoisted_4 = {
+  "class": "w-1/1 sm:w-3/3 md:w-1/3 lg:1/3 flex-row md:flex justify-between"
 };
 
-var _hoisted_7 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)("Home");
+var _hoisted_5 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("svg", {
+  "class": "",
+  width: "18",
+  height: "16",
+  viewBox: "0 0 18 16",
+  fill: "none",
+  xmlns: "http://www.w3.org/2000/svg"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("path", {
+  d: "M0 0H18V2H0V0ZM0 7H12V9H0V7ZM0 14H18V16H0V14Z",
+  fill: "#3F3F44"
+})], -1
+/* HOISTED */
+);
 
+var _hoisted_6 = [_hoisted_5];
+var _hoisted_7 = {
+  "class": "absolute flex justify-between -mt-1 -ml-1 left-1 z-40 w-full min-h-screen"
+};
 var _hoisted_8 = {
-  "class": "text-gray-900 font-bold text-center px-2 py-2 m-2"
+  "class": "sticky w-2/3 px-4 bg-white w-68"
 };
 
-var _hoisted_9 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)("Categories");
+var _hoisted_9 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+  "class": "text-lg text-gray-700"
+}, "CaniClub", -1
+/* HOISTED */
+);
 
 var _hoisted_10 = {
-  "class": "text-gray-900 font-bold text-center px-2 py-2 m-2"
+  "class": "mt-4"
+};
+var _hoisted_11 = {
+  "class": "py-1 text-sm",
+  "aria-labelledby": "dropdownDefault"
 };
 
-var _hoisted_11 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)("Shops");
+var _hoisted_12 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)("Home");
 
-var _hoisted_12 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("svg", {
+var _hoisted_13 = {
+  "class": "relative justify-items-end"
+};
+
+var _hoisted_14 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("span", {
+  "class": "mr-2 px-4"
+}, "Categories", -1
+/* HOISTED */
+);
+
+var _hoisted_15 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("svg", {
+  "class": "w-5 h-5 text-indigo-100 dark:text-white mt-1",
+  xmlns: "http://www.w3.org/2000/svg",
+  viewBox: "0 0 20 20",
+  fill: "black"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("path", {
+  "fill-rule": "evenodd",
+  d: "M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z",
+  "clip-rule": "evenodd"
+})], -1
+/* HOISTED */
+);
+
+var _hoisted_16 = [_hoisted_14, _hoisted_15];
+var _hoisted_17 = {
+  "class": "block left-2 py-2 px-4 w-64"
+};
+
+var _hoisted_18 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<span class=\"font-semibold\">Food</span><ul class=\"py-1 text-sm\" aria-labelledby=\"dropdownDefault\"><li><a href=\"#\" class=\"block py-1 px-4 hover:bg-gray-100\">Dry food</a></li><li><a href=\"#\" class=\"block py-1 px-4 hover:bg-gray-100\">Canned food</a></li><li><a href=\"#\" class=\"block py-1 px-4 hover:bg-gray-100\">Puppy food</a></li><li><a href=\"#\" class=\"block py-1 px-4 hover:bg-gray-100\">Veternary autorised diets</a></li></ul>", 2);
+
+var _hoisted_20 = [_hoisted_18];
+
+var _hoisted_21 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)("Shops");
+
+var _hoisted_22 = {
+  "class": "hidden sm:hidden md:hidden lg:block text-gray-900 font-bold text-center px-1 py-2 m-2"
+};
+
+var _hoisted_23 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)("Home");
+
+var _hoisted_24 = {
+  "class": "hidden sm:hidden md:hidden lg:block text-gray-900 px-1 py-2 m-2"
+};
+var _hoisted_25 = {
+  "class": "relative justify-items-end"
+};
+
+var _hoisted_26 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("span", {
+  "class": "mr-2"
+}, "Categories", -1
+/* HOISTED */
+);
+
+var _hoisted_27 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("svg", {
+  "class": "w-5 h-5 text-indigo-100 dark:text-white mt-1",
+  xmlns: "http://www.w3.org/2000/svg",
+  viewBox: "0 0 20 20",
+  fill: "black"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("path", {
+  "fill-rule": "evenodd",
+  d: "M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z",
+  "clip-rule": "evenodd"
+})], -1
+/* HOISTED */
+);
+
+var _hoisted_28 = [_hoisted_26, _hoisted_27];
+var _hoisted_29 = {
+  "class": "absolute z-40 right-0 py-2 px-4 mt-2 bg-white rounded shadow w-64"
+};
+
+var _hoisted_30 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<span class=\"font-semibold\">Food</span><ul class=\"py-1 text-sm\" aria-labelledby=\"dropdownDefault\"><li><a href=\"#\" class=\"block py-1 px-4 hover:bg-gray-100\">Dry food</a></li><li><a href=\"#\" class=\"block py-1 px-4 hover:bg-gray-100\">Canned food</a></li><li><a href=\"#\" class=\"block py-1 px-4 hover:bg-gray-100\">Puppy food</a></li><li><a href=\"#\" class=\"block py-1 px-4 hover:bg-gray-100\">Veternary autorised diets</a></li></ul>", 2);
+
+var _hoisted_32 = [_hoisted_30];
+var _hoisted_33 = {
+  "class": "hidden sm:hidden md:hidden lg:block text-gray-900 font-bold text-center px-2 py-2 m-2"
+};
+
+var _hoisted_34 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)("Shops");
+
+var _hoisted_35 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("svg", {
+  "class": "flex-1 w-8 h-8 fill-white",
+  viewBox: "0 0 18 17",
+  fill: "none",
+  xmlns: "http://www.w3.org/2000/svg"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("path", {
+  d: "M13.6246 11.6934L17.051 15.119L15.919 16.251L12.4934 12.8246C11.2188 13.8463 9.63341 14.4021 7.9998 14.3998C4.0254 14.3998 0.799805 11.1742 0.799805 7.19976C0.799805 3.22536 4.0254 -0.000244141 7.9998 -0.000244141C11.9742 -0.000244141 15.1998 3.22536 15.1998 7.19976C15.2021 8.83336 14.6464 10.4187 13.6246 11.6934ZM12.0198 11.0998C13.0351 10.0557 13.6021 8.6561 13.5998 7.19976C13.5998 4.10536 11.0934 1.59976 7.9998 1.59976C4.9054 1.59976 2.3998 4.10536 2.3998 7.19976C2.3998 10.2934 4.9054 12.7998 7.9998 12.7998C9.45615 12.802 10.8557 12.235 11.8998 11.2198L12.0198 11.0998Z",
+  fill: "#3F3F44",
+  "fill-opacity": "0.3"
+})], -1
+/* HOISTED */
+);
+
+var _hoisted_36 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("svg", {
   "class": "flex-1 w-8 h-8 pl-1 pt-1 fill-white",
   viewbox: "0 0 24 24"
 }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("path", {
@@ -20262,7 +20384,7 @@ var _hoisted_12 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElement
 /* HOISTED */
 );
 
-var _hoisted_13 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
+var _hoisted_37 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
   "class": "object-cover w-8 h-8 rounded-full",
   src: "https://images.unsplash.com/photo-1520315342629-6ea920342047?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjR8fGNhdHxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
   alt: "Avatar"
@@ -20273,39 +20395,98 @@ var _hoisted_13 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElement
 function render(_ctx, _cache, $props, $setup, $data, $options) {
   var _component_Link = (0,vue__WEBPACK_IMPORTED_MODULE_0__.resolveComponent)("Link");
 
-  return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", _hoisted_1, [_hoisted_2, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_5, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_6, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_Link, {
+  return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", _hoisted_1, [_hoisted_2, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_4, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" Sidebar Modal toggle button "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+    onClick: _cache[0] || (_cache[0] = function ($event) {
+      return _ctx.modal = !_ctx.modal;
+    }),
+    "class": "md:block lg:hidden relative inline-block text-gray-700 text-center item-center ml-2 px-2 py-6"
+  }, _hoisted_6), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" Sidebar Modal menu "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.withDirectives)((0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_7, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_8, [_hoisted_9, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_10, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("ul", _hoisted_11, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("li", null, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_Link, {
+    "class": "block py-1 px-4 hover:bg-gray-100 text-gray-900 font-bold",
     href: "/"
   }, {
     "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function () {
-      return [_hoisted_7];
+      return [_hoisted_12];
     }),
     _: 1
     /* STABLE */
 
-  })]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_8, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_Link, {
-    href: "/Product"
-  }, {
-    "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function () {
-      return [_hoisted_9];
+  })]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("li", null, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_13, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" Dropdown toggle button "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("span", {
+    onClick: _cache[1] || (_cache[1] = function ($event) {
+      return _ctx.show = !_ctx.show;
     }),
-    _: 1
-    /* STABLE */
-
-  })]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_10, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_Link, {
+    "class": "font-bold sm:visible md:visible lg:visible text-center inline-flex items-start"
+  }, _hoisted_16), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" Dropdown menu "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.withDirectives)((0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_17, [((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)(vue__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, (0,vue__WEBPACK_IMPORTED_MODULE_0__.renderList)(4, function (item) {
+    return (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+      key: item.id
+    }, _hoisted_20);
+  }), 64
+  /* STABLE_FRAGMENT */
+  ))], 512
+  /* NEED_PATCH */
+  ), [[vue__WEBPACK_IMPORTED_MODULE_0__.vShow, _ctx.show]])])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("li", null, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_Link, {
+    "class": "block py-1 px-4 hover:bg-gray-100 text-gray-900 font-bold",
     href: "/Shop"
   }, {
     "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function () {
-      return [_hoisted_11];
+      return [_hoisted_21];
+    }),
+    _: 1
+    /* STABLE */
+
+  })])])])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+    onClick: _cache[2] || (_cache[2] = function ($event) {
+      return _ctx.modal = !_ctx.modal;
+    }),
+    "class": "w-full bg-gray-900 opacity-75"
+  }, " asdasd ")], 512
+  /* NEED_PATCH */
+  ), [[vue__WEBPACK_IMPORTED_MODULE_0__.vShow, _ctx.modal]]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_22, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_Link, {
+    href: "/"
+  }, {
+    "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function () {
+      return [_hoisted_23];
+    }),
+    _: 1
+    /* STABLE */
+
+  })]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_24, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_25, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" Dropdown toggle button "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("span", {
+    onClick: _cache[3] || (_cache[3] = function ($event) {
+      return _ctx.show = !_ctx.show;
+    }),
+    "class": "invisible font-bold md:visible lg:visible text-center inline-flex items-start"
+  }, _hoisted_28), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" Dropdown menu "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.withDirectives)((0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_29, [((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)(vue__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, (0,vue__WEBPACK_IMPORTED_MODULE_0__.renderList)(4, function (item) {
+    return (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+      key: item.id
+    }, _hoisted_32);
+  }), 64
+  /* STABLE_FRAGMENT */
+  ))], 512
+  /* NEED_PATCH */
+  ), [[vue__WEBPACK_IMPORTED_MODULE_0__.vShow, _ctx.show]])])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_33, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_Link, {
+    href: "/Shop"
+  }, {
+    "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function () {
+      return [_hoisted_34];
     }),
     _: 1
     /* STABLE */
 
   })]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_Link, {
+    href: "/search",
+    "class": "block sm:block md:hidden lg:hidden ml-36 relative inline-block text-center bg-gray-200 px-2 py-2 m-2 rounded-full"
+  }, {
+    "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function () {
+      return [_hoisted_35];
+    }),
+    _: 1
+    /* STABLE */
+
+  }), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_Link, {
     href: "/Cart",
     "class": "relative inline-block text-gray-700 text-center bg-gray-400 px-2 py-2 m-2 rounded-full"
   }, {
     "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function () {
-      return [_hoisted_12];
+      return [_hoisted_36];
     }),
     _: 1
     /* STABLE */
@@ -20315,7 +20496,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
     "class": "relative inline-block text-gray-700 text-center bg-gray-500 px-2 py-2 m-2 rounded-full"
   }, {
     "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function () {
-      return [_hoisted_13];
+      return [_hoisted_37];
     }),
     _: 1
     /* STABLE */
