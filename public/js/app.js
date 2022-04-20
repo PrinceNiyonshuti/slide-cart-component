@@ -19453,6 +19453,21 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
+/***/ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./resources/js/Components/SpecialItemDetail.vue?vue&type=script&lang=js":
+/*!***********************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./resources/js/Components/SpecialItemDetail.vue?vue&type=script&lang=js ***!
+  \***********************************************************************************************************************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({});
+
+/***/ }),
+
 /***/ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./resources/js/Components/SpecialProductItem.vue?vue&type=script&lang=js":
 /*!************************************************************************************************************************************************************************************************************!*\
   !*** ./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./resources/js/Components/SpecialProductItem.vue?vue&type=script&lang=js ***!
@@ -19698,8 +19713,10 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ });
 /* harmony import */ var _Shared_Nav__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../Shared/Nav */ "./resources/js/Shared/Nav.vue");
 /* harmony import */ var _Components_ProductDetailHeader_vue__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../Components/ProductDetailHeader.vue */ "./resources/js/Components/ProductDetailHeader.vue");
-/* harmony import */ var _Components_SpecialProductItem_vue__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../Components/SpecialProductItem.vue */ "./resources/js/Components/SpecialProductItem.vue");
-/* harmony import */ var _Components_Shops_vue__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../Components/Shops.vue */ "./resources/js/Components/Shops.vue");
+/* harmony import */ var _Components_SpecialItemDetail_vue__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../Components/SpecialItemDetail.vue */ "./resources/js/Components/SpecialItemDetail.vue");
+/* harmony import */ var _Components_SpecialProductItem_vue__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../Components/SpecialProductItem.vue */ "./resources/js/Components/SpecialProductItem.vue");
+/* harmony import */ var _Components_Shops_vue__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../Components/Shops.vue */ "./resources/js/Components/Shops.vue");
+
 
 
 
@@ -19708,8 +19725,9 @@ __webpack_require__.r(__webpack_exports__);
   components: {
     Nav: _Shared_Nav__WEBPACK_IMPORTED_MODULE_0__["default"],
     ProductDetailHeader: _Components_ProductDetailHeader_vue__WEBPACK_IMPORTED_MODULE_1__["default"],
-    SpecialProductItem: _Components_SpecialProductItem_vue__WEBPACK_IMPORTED_MODULE_2__["default"],
-    Shops: _Components_Shops_vue__WEBPACK_IMPORTED_MODULE_3__["default"]
+    SpecialItemDetail: _Components_SpecialItemDetail_vue__WEBPACK_IMPORTED_MODULE_2__["default"],
+    SpecialProductItem: _Components_SpecialProductItem_vue__WEBPACK_IMPORTED_MODULE_3__["default"],
+    Shops: _Components_Shops_vue__WEBPACK_IMPORTED_MODULE_4__["default"]
   },
   data: function data() {
     return {
@@ -20280,7 +20298,7 @@ var _hoisted_2 = {
 var _hoisted_3 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
   "class": "mx-auto flex w-full flex-col justify-center lg:px-8 xl:px-8"
 }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" img "), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
-  "class": "h-64 w-full object-cover object-center rounded border border-gray-200",
+  "class": "h-64 w-68 object-cover object-center rounded border border-gray-200",
   src: "https://img.freepik.com/free-vector/cute-petshop-logo-with-cat-dog-vector_454510-133.jpg"
 }), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" text information "), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
   "class": "text-center"
@@ -20302,6 +20320,32 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
   ))])], 64
   /* STABLE_FRAGMENT */
   );
+}
+
+/***/ }),
+
+/***/ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[2]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./resources/js/Components/SpecialItemDetail.vue?vue&type=template&id=c171ecbc":
+/*!***************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[2]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./resources/js/Components/SpecialItemDetail.vue?vue&type=template&id=c171ecbc ***!
+  \***************************************************************************************************************************************************************************************************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "render": () => (/* binding */ render)
+/* harmony export */ });
+/* harmony import */ var vue__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! vue */ "./node_modules/vue/dist/vue.esm-bundler.js");
+
+var _hoisted_1 = {
+  "class": "flex flex-wrap -mx-1 overflow-hidden sm:-mx-1 md:-mx-1 lg:-mx-1 xl:-mx-1"
+};
+
+var _hoisted_2 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<div class=\"my-1 px-1 w-full overflow-hidden sm:my-1 sm:px-1 sm:w-1/2 md:my-1 md:px-1 md:w-1/2 lg:my-1 lg:px-1 lg:w-1/2 xl:my-1 xl:px-1 xl:w-1/2\"><img alt=\"Dog Tags\" class=\"w-full h-5/6 object-fit object-center rounded border border-gray-200\" src=\"https://m.media-amazon.com/images/I/71cPvIqZ+wL._AC_SX425_.jpg\"></div><div class=\"my-1 px-1 w-full overflow-hidden sm:my-1 sm:px-1 sm:w-1/2 md:my-1 md:px-1 md:w-1/2 lg:my-1 lg:px-1 lg:w-1/2 xl:my-1 xl:px-1 xl:pl-4 xl:w-1/2\"><div class=\"flex justify-between px-2\"><span class=\"text-xl\">Price</span><span class=\"font-semibold text-4xl\">€ 20</span></div><div class=\"flex flex-col px-2 py-1\"><span class=\"text-lg font-medium\">Item description</span><p class=\"pt-2 text-base\"> Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aeneanommodo ligula eget dolor. Aenean massa. Cum sociis natoque Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. </p></div><div class=\"relative px-2 py-1 mt-4 mr-8 lg:mr-12\"><select class=\"block appearance-none w-full border border-gray-500 text-gray-700 py-2 px-4 mr-40 rounded leading-tight\"><option>Select dog</option><option>Select dog</option><option>Select dog</option></select><div class=\"pointer-events-none absolute inset-y-0 right-0 flex items-center px-2 text-gray-700\"><svg class=\"fill-current h-4 w-4\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 20 20\"><path d=\"M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z\"></path></svg></div></div><div class=\"flex items-center justify-between mt-4\"><button class=\"flex text-white font-semibold bg-orange-600 rounded border-0 py-2 px-6 focus:outline-none\"><svg class=\"flex-1 w-6 md:w-4 lg:w-6 pr-1 pt-1\" viewBox=\"0 0 15 15\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M4.5 12C3.675 12 3.0075 12.675 3.0075 13.5C3.0075 14.325 3.675 15 4.5 15C5.325 15 6 14.325 6 13.5C6 12.675 5.325 12 4.5 12ZM0 0V1.5H1.5L4.2 7.1925L3.1875 9.03C3.0675 9.24 3 9.4875 3 9.75C3 10.575 3.675 11.25 4.5 11.25H13.5V9.75H4.815C4.71 9.75 4.6275 9.6675 4.6275 9.5625L4.65 9.4725L5.325 8.25H10.9125C11.475 8.25 11.97 7.9425 12.225 7.4775L14.91 2.61C14.97 2.505 15 2.3775 15 2.25C15 1.8375 14.6625 1.5 14.25 1.5H3.1575L2.4525 0H0ZM12 12C11.175 12 10.5075 12.675 10.5075 13.5C10.5075 14.325 11.175 15 12 15C12.825 15 13.5 14.325 13.5 13.5C13.5 12.675 12.825 12 12 12Z\" fill=\"white\"></path></svg> Add to cart </button><button class=\"flex text-orange-500 font-semibold rounded border-2 border-orange-500 py-2 px-6 focus:outline-none\"><svg class=\"flex-1 w-8 md:w-6 lg:w-8 pr-1 pt-1\" viewBox=\"0 0 18 13\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M17.3327 2.83336H9.83268V4.50002H17.3327V2.83336ZM17.3327 9.50002H9.83268V11.1667H17.3327V9.50002ZM3.61602 6.16669L0.666016 3.21669L1.84102 2.04169L3.60768 3.80836L7.14102 0.275024L8.31602 1.45002L3.61602 6.16669ZM3.61602 12.8334L0.666016 9.88336L1.84102 8.70836L3.60768 10.475L7.14102 6.94169L8.31602 8.11669L3.61602 12.8334Z\" fill=\"#FF6C00\"></path></svg> Add to wishlist </button></div></div>", 2);
+
+var _hoisted_4 = [_hoisted_2];
+function render(_ctx, _cache, $props, $setup, $data, $options) {
+  return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", _hoisted_1, _hoisted_4);
 }
 
 /***/ }),
@@ -20702,15 +20746,25 @@ var _hoisted_1 = {
   "class": "container px-4 pt-8 sm:px-8 md:px-2 lg:px-8 mx-auto"
 };
 
-var _hoisted_2 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<div class=\"flex flex-wrap -mx-1 overflow-hidden sm:-mx-1 md:-mx-1 lg:-mx-1 xl:-mx-1\"><div class=\"my-1 px-1 w-full overflow-hidden sm:my-1 sm:px-1 sm:w-1/2 md:my-1 md:px-1 md:w-1/2 lg:my-1 lg:px-1 lg:w-1/2 xl:my-1 xl:px-1 xl:w-1/2\"><img alt=\"Dog Tags\" class=\"w-full h-5/6 object-fit object-center rounded border border-gray-200\" src=\"https://m.media-amazon.com/images/I/71cPvIqZ+wL._AC_SX425_.jpg\"></div><div class=\"my-1 px-1 w-full overflow-hidden sm:my-1 sm:px-1 sm:w-1/2 md:my-1 md:px-1 md:w-1/2 lg:my-1 lg:px-1 lg:w-1/2 xl:my-1 xl:px-1 xl:pl-4 xl:w-1/2\"><div class=\"flex justify-between px-2\"><span class=\"text-xl\">Price</span><span class=\"font-semibold text-4xl\">€ 20</span></div><div class=\"flex flex-col px-2 py-1\"><span class=\"text-lg font-medium\">Item description</span><p class=\"pt-2 text-base\"> Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aeneanommodo ligula eget dolor. Aenean massa. Cum sociis natoque Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. </p></div><div class=\"relative px-2 py-1 mt-4 mr-8 lg:mr-12\"><select class=\"block appearance-none w-full border border-gray-500 text-gray-700 py-2 px-4 mr-40 rounded leading-tight\"><option>Select dog</option><option>Select dog</option><option>Select dog</option></select><div class=\"pointer-events-none absolute inset-y-0 right-0 flex items-center px-2 text-gray-700\"><svg class=\"fill-current h-4 w-4\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 20 20\"><path d=\"M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z\"></path></svg></div></div><div class=\"flex items-center justify-between mt-4\"><button class=\"flex text-white font-semibold bg-orange-600 rounded border-0 py-2 px-6 focus:outline-none\"><svg class=\"flex-1 w-6 md:w-4 lg:w-6 pr-1 pt-1\" viewBox=\"0 0 15 15\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M4.5 12C3.675 12 3.0075 12.675 3.0075 13.5C3.0075 14.325 3.675 15 4.5 15C5.325 15 6 14.325 6 13.5C6 12.675 5.325 12 4.5 12ZM0 0V1.5H1.5L4.2 7.1925L3.1875 9.03C3.0675 9.24 3 9.4875 3 9.75C3 10.575 3.675 11.25 4.5 11.25H13.5V9.75H4.815C4.71 9.75 4.6275 9.6675 4.6275 9.5625L4.65 9.4725L5.325 8.25H10.9125C11.475 8.25 11.97 7.9425 12.225 7.4775L14.91 2.61C14.97 2.505 15 2.3775 15 2.25C15 1.8375 14.6625 1.5 14.25 1.5H3.1575L2.4525 0H0ZM12 12C11.175 12 10.5075 12.675 10.5075 13.5C10.5075 14.325 11.175 15 12 15C12.825 15 13.5 14.325 13.5 13.5C13.5 12.675 12.825 12 12 12Z\" fill=\"white\"></path></svg> Add to cart </button><button class=\"flex text-orange-500 font-semibold rounded border-2 border-orange-500 py-2 px-6 focus:outline-none\"><svg class=\"flex-1 w-8 md:w-6 lg:w-8 pr-1 pt-1\" viewBox=\"0 0 18 13\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M17.3327 2.83336H9.83268V4.50002H17.3327V2.83336ZM17.3327 9.50002H9.83268V11.1667H17.3327V9.50002ZM3.61602 6.16669L0.666016 3.21669L1.84102 2.04169L3.60768 3.80836L7.14102 0.275024L8.31602 1.45002L3.61602 6.16669ZM3.61602 12.8334L0.666016 9.88336L1.84102 8.70836L3.60768 10.475L7.14102 6.94169L8.31602 8.11669L3.61602 12.8334Z\" fill=\"#FF6C00\"></path></svg> Add to wishlist </button></div></div></div><div class=\"flex flex-row items-center\"><div class=\"my-2 mb-10\"><h2 class=\"text-base md:text-2xl lg:text-2xl font-bold\"> Similal Items </h2></div></div>", 2);
+var _hoisted_2 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+  "class": "flex flex-row items-center"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+  "class": "my-2 mb-10"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("h2", {
+  "class": "text-base md:text-2xl lg:text-2xl font-bold"
+}, " Similal Items ")])], -1
+/* HOISTED */
+);
 
-var _hoisted_4 = {
+var _hoisted_3 = {
   "class": "flex flex-wrap -mx-px overflow-hidden sm:-mx-px md:-mx-1 lg:-mx-px xl:-mx-1"
 };
 function render(_ctx, _cache, $props, $setup, $data, $options) {
   var _component_Nav = (0,vue__WEBPACK_IMPORTED_MODULE_0__.resolveComponent)("Nav");
 
   var _component_ProductDetailHeader = (0,vue__WEBPACK_IMPORTED_MODULE_0__.resolveComponent)("ProductDetailHeader");
+
+  var _component_SpecialItemDetail = (0,vue__WEBPACK_IMPORTED_MODULE_0__.resolveComponent)("SpecialItemDetail");
 
   var _component_SpecialProductItem = (0,vue__WEBPACK_IMPORTED_MODULE_0__.resolveComponent)("SpecialProductItem");
 
@@ -20720,7 +20774,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
     itemName: $data.itemName
   }, null, 8
   /* PROPS */
-  , ["itemName"]), _hoisted_2, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_4, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_SpecialProductItem, {
+  , ["itemName"]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_SpecialItemDetail), _hoisted_2, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_3, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_SpecialProductItem, {
     items: 2
   })]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_Shops)])], 64
   /* STABLE_FRAGMENT */
@@ -27971,6 +28025,34 @@ if (false) {}
 
 /***/ }),
 
+/***/ "./resources/js/Components/SpecialItemDetail.vue":
+/*!*******************************************************!*\
+  !*** ./resources/js/Components/SpecialItemDetail.vue ***!
+  \*******************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _SpecialItemDetail_vue_vue_type_template_id_c171ecbc__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./SpecialItemDetail.vue?vue&type=template&id=c171ecbc */ "./resources/js/Components/SpecialItemDetail.vue?vue&type=template&id=c171ecbc");
+/* harmony import */ var _SpecialItemDetail_vue_vue_type_script_lang_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./SpecialItemDetail.vue?vue&type=script&lang=js */ "./resources/js/Components/SpecialItemDetail.vue?vue&type=script&lang=js");
+/* harmony import */ var C_xampp_htdocs_headerSearchComponent_node_modules_vue_loader_dist_exportHelper_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./node_modules/vue-loader/dist/exportHelper.js */ "./node_modules/vue-loader/dist/exportHelper.js");
+
+
+
+
+;
+const __exports__ = /*#__PURE__*/(0,C_xampp_htdocs_headerSearchComponent_node_modules_vue_loader_dist_exportHelper_js__WEBPACK_IMPORTED_MODULE_2__["default"])(_SpecialItemDetail_vue_vue_type_script_lang_js__WEBPACK_IMPORTED_MODULE_1__["default"], [['render',_SpecialItemDetail_vue_vue_type_template_id_c171ecbc__WEBPACK_IMPORTED_MODULE_0__.render],['__file',"resources/js/Components/SpecialItemDetail.vue"]])
+/* hot reload */
+if (false) {}
+
+
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__exports__);
+
+/***/ }),
+
 /***/ "./resources/js/Components/SpecialProductItem.vue":
 /*!********************************************************!*\
   !*** ./resources/js/Components/SpecialProductItem.vue ***!
@@ -28351,6 +28433,22 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
+/***/ "./resources/js/Components/SpecialItemDetail.vue?vue&type=script&lang=js":
+/*!*******************************************************************************!*\
+  !*** ./resources/js/Components/SpecialItemDetail.vue?vue&type=script&lang=js ***!
+  \*******************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (/* reexport safe */ _node_modules_babel_loader_lib_index_js_clonedRuleSet_5_use_0_node_modules_vue_loader_dist_index_js_ruleSet_0_use_0_SpecialItemDetail_vue_vue_type_script_lang_js__WEBPACK_IMPORTED_MODULE_0__["default"])
+/* harmony export */ });
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_clonedRuleSet_5_use_0_node_modules_vue_loader_dist_index_js_ruleSet_0_use_0_SpecialItemDetail_vue_vue_type_script_lang_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!../../../node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./SpecialItemDetail.vue?vue&type=script&lang=js */ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./resources/js/Components/SpecialItemDetail.vue?vue&type=script&lang=js");
+ 
+
+/***/ }),
+
 /***/ "./resources/js/Components/SpecialProductItem.vue?vue&type=script&lang=js":
 /*!********************************************************************************!*\
   !*** ./resources/js/Components/SpecialProductItem.vue?vue&type=script&lang=js ***!
@@ -28619,6 +28717,22 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   "render": () => (/* reexport safe */ _node_modules_babel_loader_lib_index_js_clonedRuleSet_5_use_0_node_modules_vue_loader_dist_templateLoader_js_ruleSet_1_rules_2_node_modules_vue_loader_dist_index_js_ruleSet_0_use_0_Shops_vue_vue_type_template_id_61c2ca82__WEBPACK_IMPORTED_MODULE_0__.render)
 /* harmony export */ });
 /* harmony import */ var _node_modules_babel_loader_lib_index_js_clonedRuleSet_5_use_0_node_modules_vue_loader_dist_templateLoader_js_ruleSet_1_rules_2_node_modules_vue_loader_dist_index_js_ruleSet_0_use_0_Shops_vue_vue_type_template_id_61c2ca82__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!../../../node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[2]!../../../node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./Shops.vue?vue&type=template&id=61c2ca82 */ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[2]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./resources/js/Components/Shops.vue?vue&type=template&id=61c2ca82");
+
+
+/***/ }),
+
+/***/ "./resources/js/Components/SpecialItemDetail.vue?vue&type=template&id=c171ecbc":
+/*!*************************************************************************************!*\
+  !*** ./resources/js/Components/SpecialItemDetail.vue?vue&type=template&id=c171ecbc ***!
+  \*************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "render": () => (/* reexport safe */ _node_modules_babel_loader_lib_index_js_clonedRuleSet_5_use_0_node_modules_vue_loader_dist_templateLoader_js_ruleSet_1_rules_2_node_modules_vue_loader_dist_index_js_ruleSet_0_use_0_SpecialItemDetail_vue_vue_type_template_id_c171ecbc__WEBPACK_IMPORTED_MODULE_0__.render)
+/* harmony export */ });
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_clonedRuleSet_5_use_0_node_modules_vue_loader_dist_templateLoader_js_ruleSet_1_rules_2_node_modules_vue_loader_dist_index_js_ruleSet_0_use_0_SpecialItemDetail_vue_vue_type_template_id_c171ecbc__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!../../../node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[2]!../../../node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./SpecialItemDetail.vue?vue&type=template&id=c171ecbc */ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[2]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./resources/js/Components/SpecialItemDetail.vue?vue&type=template&id=c171ecbc");
 
 
 /***/ }),
