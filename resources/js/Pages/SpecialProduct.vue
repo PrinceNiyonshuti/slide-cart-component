@@ -3,7 +3,7 @@
     <div class="container px-4 pt-8 sm:px-8 md:px-2 lg:px-8 mx-auto">
         <Header :headerName="pageName"/>
         <div class="flex flex-wrap -mx-px overflow-hidden sm:-mx-px md:-mx-1 lg:-mx-px xl:-mx-1">
-            <SpecialProductItem/>
+            <SpecialProductItem :items="8"/>
         </div>
     </div>
 </template>

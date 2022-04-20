@@ -10,7 +10,7 @@
         </div>
         <div class="my-2 mb-10">
             <h2 class="text-base md:text-2xl lg:text-2xl font-bold">
-                Bamboo shop/ Dog Tags
+                {{ itemName }}
             </h2>
         </div>
     </div>
@@ -21,6 +21,9 @@ import { Link } from "@inertiajs/inertia-vue3";
 export default {
     components: {
         Link,
+    },
+    props:{
+        itemName:String
     },
     methods: {
         back() {

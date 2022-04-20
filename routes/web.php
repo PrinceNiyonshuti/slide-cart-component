@@ -34,6 +34,10 @@ Route::get('/SpecialProduct', function () {
     return Inertia::render('SpecialProduct');
 });
 
+Route::get('/SpecialProductDetail', function () {
+    return Inertia::render('SpecialProductDetail');
+});
+
 Route::get('/Shop', function () {
     return Inertia::render('Shop');
 });
