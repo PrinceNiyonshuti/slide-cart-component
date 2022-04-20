@@ -21,7 +21,7 @@
         </div>
         <div class="w-1/1 sm:w-3/3 md:w-1/3 lg:1/3 flex-row md:flex justify-between">
             <!-- Sidebar Modal toggle button -->
-            <div @click="modal = !modal" class="md:block lg:hidden relative inline-block text-gray-700 text-center item-center ml-2 px-2 py-6">
+            <div @click="modal = !modal" class="md:block lg:hidden relative inline-block text-gray-700 text-center item-center ml-2 px-2 py-6 cursor-pointer">
                 <svg class="" width="18" height="16" viewBox="0 0 18 16" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path d="M0 0H18V2H0V0ZM0 7H12V9H0V7ZM0 14H18V16H0V14Z" fill="#3F3F44"/>
                 </svg>
@@ -104,7 +104,7 @@
                     <!-- Dropdown toggle button -->
                     <span
                         @click="show = !show"
-                        class="invisible font-bold md:visible lg:visible  text-center inline-flex items-start"
+                        class="invisible font-bold md:visible lg:visible cursor-pointer text-center inline-flex items-start"
                     >
                         <span class="mr-2">Categories</span>
                         <svg

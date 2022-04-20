@@ -1,14 +1,18 @@
 <template>
-    <div class="my-px px-px w-full overflow-hidden sm:my-px sm:px-px sm:w-full md:my-1 md:w-1/2 lg:my-px lg:px-px lg:w-1/2 xl:my-1 xl:px-1 xl:w-1/2" v-for="item in 8" v-bind:key="item.id">
+    <div class="my-px px-px w-full overflow-hidden sm:my-px sm:px-px sm:w-full md:my-1 md:w-1/2 lg:my-px lg:px-px lg:w-1/2 xl:my-1 xl:px-1 xl:w-1/2" v-for="item in items" v-bind:key="item.id">
         <div class="flex flex-wrap overflow-hidden">
             <div class="w-full overflow-hidden">
                 <div class="text-slate-700  sm:px-0 md:px-0 lg:pr-4 mb-6" >
                     <div class="flex-wrap sm:flex  sm:space-x-0 md:flex-nowrap md:items-center md:space-x-0 lg:flex-nowrap lg:space-x-5 items-center mr-0 md:mr-0 lg:mr-8">
                         <div class="">
-                            <img class="rounded-md w-full h-60 object-fit md:w-80 md:h-32 lg:w-60 lg:h-40 border border-gray-200" src="https://m.media-amazon.com/images/I/81OoqT9zwXL._AC_SL1500_.jpg" alt="brad" />
+                            <Link href="/ProductDetail">
+                                <img class="rounded-md w-full h-60 object-fit md:w-80 md:h-32 lg:w-60 lg:h-40 border border-gray-200" src="https://m.media-amazon.com/images/I/81OoqT9zwXL._AC_SL1500_.jpg" alt="brad" />
+                            </Link>
                         </div>
                         <div class="mt-2 md:mt-0 md:px-4 md:h-full">
-                            <h1 class="text-xl font-bold md:text-base lg:text-xl">Cesar Classics</h1>
+                            <h1 class="text-xl font-bold md:text-base lg:text-xl">
+                                <Link href="/ProductDetail">Cesar Classics</Link>
+                            </h1>
                             <p class=" md:max-w-lg md:text-sm md:tracking-tighter lg:text-base lg:tracking-normal">The wide ranging nature of items and practices to which the term creative can be sensibly applied </p>
                             <p class="text-xl font-semibold md:text-base lg:text-xl">24 €</p>
                             <div class="flex items-center justify-between mt-2 ">
@@ -33,7 +37,14 @@
     </div>
 </template>
 <script>
-export default {
+import { Link } from '@inertiajs/inertia-vue3'
 
+export default {
+    components: {
+        Link,
+    },
+    props: {
+        items: Number,
+    },
 }
 </script>

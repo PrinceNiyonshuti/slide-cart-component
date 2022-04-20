@@ -26,6 +26,10 @@ Route::get('/Product', function () {
     return Inertia::render('Product');
 });
 
+Route::get('/ProductDetail', function () {
+    return Inertia::render('ProductDetail');
+});
+
 Route::get('/SpecialProduct', function () {
     return Inertia::render('SpecialProduct');
 });
