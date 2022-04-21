@@ -1,7 +1,7 @@
 <template>
     <div class="w-full sm:w-full md:w-full lg:w-3/4 xl:w-3/4">
         <!-- Large Devices -->
-        <div class=" h-full grow-0 border border-gray-200 hidden lg:block">
+        <div class=" grow-0 border border-gray-200 hidden lg:block">
             <div class="bg-gray-200 py-4">
                 <span class="px-8 content-center">
                     <span class="font-bold text-orange-600">Shop</span>

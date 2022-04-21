@@ -19782,7 +19782,7 @@ var _hoisted_1 = {
   "class": "w-full sm:w-full md:w-full lg:w-3/4 xl:w-3/4"
 };
 var _hoisted_2 = {
-  "class": "h-full grow-0 border border-gray-200 hidden lg:block"
+  "class": "grow-0 border border-gray-200 hidden lg:block"
 };
 var _hoisted_3 = {
   "class": "bg-gray-200 py-4"
