@@ -19779,29 +19779,32 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var vue__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! vue */ "./node_modules/vue/dist/vue.esm-bundler.js");
 
 var _hoisted_1 = {
-  "class": "w-full sm:w-full md:w-full lg:w-3/4 xl:w-3/4 h-full grow-0 border border-gray-200 hidden lg:block"
+  "class": "w-full sm:w-full md:w-full lg:w-3/4 xl:w-3/4"
 };
 var _hoisted_2 = {
-  "class": "bg-gray-200 py-4"
+  "class": "h-full grow-0 border border-gray-200 hidden lg:block"
 };
 var _hoisted_3 = {
+  "class": "bg-gray-200 py-4"
+};
+var _hoisted_4 = {
   "class": "px-8 content-center"
 };
 
-var _hoisted_4 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("span", {
+var _hoisted_5 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("span", {
   "class": "font-bold text-orange-600"
 }, "Shop", -1
 /* HOISTED */
 );
 
-var _hoisted_5 = {
+var _hoisted_6 = {
   "class": "pl-4"
 };
-var _hoisted_6 = {
+var _hoisted_7 = {
   "class": "w-full grow-0 border border-gray-200"
 };
 
-var _hoisted_7 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("thead", null, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" <tr class=\"bg-gray-200\">\n                    <td colspan=\"8\" class=\"px-8 py-2\">\n                        <span class=\"font-bold text-orange-600\">Shop</span>\n                        <span class=\"pl-4\">{{ shopName }}</span>\n                    </td>\n                </tr> "), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("tr", {
+var _hoisted_8 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("thead", null, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" <tr class=\"bg-gray-200\">\n                        <td colspan=\"8\" class=\"px-8 py-2\">\n                            <span class=\"font-bold text-orange-600\">Shop</span>\n                            <span class=\"pl-4\">{{ shopName }}</span>\n                        </td>\n                    </tr> "), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("tr", {
   "class": "border-b-solid border-b-[1px] border-grey-400"
 }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("th", {
   "class": "px-6 py-3 whitespace-nowrap"
@@ -19823,7 +19826,7 @@ var _hoisted_7 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementV
 /* HOISTED */
 );
 
-var _hoisted_8 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("tr", {
+var _hoisted_9 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("tr", {
   "class": "border-b border-gray-200"
 }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("td", {
   "class": "py-2"
@@ -19895,51 +19898,49 @@ var _hoisted_8 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementV
 /* HOISTED */
 );
 
-var _hoisted_9 = [_hoisted_8];
-var _hoisted_10 = {
+var _hoisted_10 = [_hoisted_9];
+var _hoisted_11 = {
   "class": "w-full overflow-x-auto sm:w-full md:w-full lg:w-3/4 xl:w-3/4 h-full grow-0 border border-gray-200 lg:hidden"
 };
-var _hoisted_11 = {
+var _hoisted_12 = {
   "class": "bg-gray-200 py-4"
 };
-var _hoisted_12 = {
+var _hoisted_13 = {
   "class": "px-8 content-center"
 };
 
-var _hoisted_13 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("span", {
+var _hoisted_14 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("span", {
   "class": "font-bold text-orange-600"
 }, "Shop", -1
 /* HOISTED */
 );
 
-var _hoisted_14 = {
+var _hoisted_15 = {
   "class": "pl-4"
 };
 
-var _hoisted_15 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<div class=\"flex justify-between px-2 py-1 mt-2\"><span class=\"font-semibold\"><div class=\"flex justify-center flex-shrink-0 overflow-hidden rounded-md\"><img src=\"https://tailwindui.com/img/ecommerce-images/shopping-cart-page-04-product-01.jpg\" class=\"object-cover h-[80px] w-[80px] border border-gray-200\" alt=\"image\"></div></span><span class=\"flex flex-col items-center justify-center font-bold\">Tennis ball</span><span class=\"flex flex-col items-center justify-center font-semibold\"><button><svg xmlns=\"http://www.w3.org/2000/svg\" class=\"w-6 h-6 text-red-400\" fill=\"none\" viewBox=\"0 0 24 24\" stroke=\"currentColor\"><path stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M19 7l-.867 12.142A2 2 0 0116.138 21H7.862a2 2 0 01-1.995-1.858L5 7m5 4v6m4-6v6m1-10V4a1 1 0 00-1-1h-4a1 1 0 00-1 1v3M4 7h16\"></path></svg></button></span></div><div class=\"flex justify-between px-2 py-2\"><span class=\"font-semibold\">Size</span><span class=\"font-semibold\">Large</span></div><div class=\"flex justify-between px-2 py-2\"><span class=\"font-semibold\">Color</span><span class=\"font-semibold\"><div class=\"w-8 h-8 bg-orange-600 rounded-full mx-auto\"></div></span></div><div class=\"flex justify-between px-2 py-2\"><span class=\"font-semibold\">Price</span><span class=\"font-semibold\">25 €</span></div><div class=\"flex justify-between px-2 py-2\"><span class=\"font-semibold\">Quantity</span><span class=\"font-semibold\"><div class=\"border border-gray-200\"><button class=\"px-2\">-</button><input type=\"text\" name=\"qty\" value=\"2\" class=\"w-12 text-center bg-gray-100 outline-none\"><button class=\"px-2\">+</button></div></span></div><div class=\"flex justify-between px-2 py-2 border-b-[1px]\"><span class=\"font-bold\">Total</span><span class=\"font-bold\">50 €</span></div>", 6);
+var _hoisted_16 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<div class=\"flex justify-between px-2 py-1 mt-2\"><span class=\"font-semibold\"><div class=\"flex justify-center flex-shrink-0 overflow-hidden rounded-md\"><img src=\"https://tailwindui.com/img/ecommerce-images/shopping-cart-page-04-product-01.jpg\" class=\"object-cover h-[80px] w-[80px] border border-gray-200\" alt=\"image\"></div></span><span class=\"flex flex-col items-center justify-center font-bold\">Tennis ball</span><span class=\"flex flex-col items-center justify-center font-semibold\"><button><svg xmlns=\"http://www.w3.org/2000/svg\" class=\"w-6 h-6 text-red-400\" fill=\"none\" viewBox=\"0 0 24 24\" stroke=\"currentColor\"><path stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M19 7l-.867 12.142A2 2 0 0116.138 21H7.862a2 2 0 01-1.995-1.858L5 7m5 4v6m4-6v6m1-10V4a1 1 0 00-1-1h-4a1 1 0 00-1 1v3M4 7h16\"></path></svg></button></span></div><div class=\"flex justify-between px-2 py-2\"><span class=\"font-semibold\">Size</span><span class=\"font-semibold\">Large</span></div><div class=\"flex justify-between px-2 py-2\"><span class=\"font-semibold\">Color</span><span class=\"font-semibold\"><div class=\"w-8 h-8 bg-orange-600 rounded-full mx-auto\"></div></span></div><div class=\"flex justify-between px-2 py-2\"><span class=\"font-semibold\">Price</span><span class=\"font-semibold\">25 €</span></div><div class=\"flex justify-between px-2 py-2\"><span class=\"font-semibold\">Quantity</span><span class=\"font-semibold\"><div class=\"border border-gray-200\"><button class=\"px-2\">-</button><input type=\"text\" name=\"qty\" value=\"2\" class=\"w-12 text-center bg-gray-100 outline-none\"><button class=\"px-2\">+</button></div></span></div><div class=\"flex justify-between px-2 py-2 border-b-[1px]\"><span class=\"font-bold\">Total</span><span class=\"font-bold\">50 €</span></div>", 6);
 
-var _hoisted_21 = [_hoisted_15];
+var _hoisted_22 = [_hoisted_16];
 function render(_ctx, _cache, $props, $setup, $data, $options) {
-  return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)(vue__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" Large Devices "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_1, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_2, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("span", _hoisted_3, [_hoisted_4, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("span", _hoisted_5, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)($props.shopName), 1
+  return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", _hoisted_1, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" Large Devices "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_2, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_3, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("span", _hoisted_4, [_hoisted_5, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("span", _hoisted_6, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)($props.shopName), 1
   /* TEXT */
-  )])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("table", _hoisted_6, [_hoisted_7, ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(true), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)(vue__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, (0,vue__WEBPACK_IMPORTED_MODULE_0__.renderList)($props.items, function (item) {
+  )])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("table", _hoisted_7, [_hoisted_8, ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(true), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)(vue__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, (0,vue__WEBPACK_IMPORTED_MODULE_0__.renderList)($props.items, function (item) {
     return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("tbody", {
       key: item.id
-    }, _hoisted_9);
+    }, _hoisted_10);
   }), 128
   /* KEYED_FRAGMENT */
-  ))])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" End of Large Devices "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" Mobile and Tablet "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_10, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_11, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("span", _hoisted_12, [_hoisted_13, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("span", _hoisted_14, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)($props.shopName), 1
+  ))])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" End of Large Devices "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" Mobile and Tablet "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_11, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_12, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("span", _hoisted_13, [_hoisted_14, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("span", _hoisted_15, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)($props.shopName), 1
   /* TEXT */
   )])]), ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(true), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)(vue__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, (0,vue__WEBPACK_IMPORTED_MODULE_0__.renderList)($props.items, function (item) {
     return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", {
       "class": "",
       key: item.id
-    }, _hoisted_21);
+    }, _hoisted_22);
   }), 128
   /* KEYED_FRAGMENT */
-  ))]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" End of Mobile and Tablet ")], 64
-  /* STABLE_FRAGMENT */
-  );
+  ))]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" End of Mobile and Tablet ")]);
 }
 
 /***/ }),
@@ -20341,7 +20342,7 @@ var _hoisted_1 = {
   "class": "flex flex-wrap -mx-1 overflow-hidden sm:-mx-1 md:-mx-1 lg:-mx-1 xl:-mx-1"
 };
 
-var _hoisted_2 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<div class=\"my-1 px-1 w-full overflow-hidden sm:my-1 sm:px-1 sm:w-1/2 md:my-1 md:px-1 md:w-1/2 lg:my-1 lg:px-1 lg:w-1/2 xl:my-1 xl:px-1 xl:w-1/2\"><img alt=\"Dog Tags\" class=\"w-full h-5/6 object-fit object-center rounded border border-gray-200\" src=\"https://m.media-amazon.com/images/I/71cPvIqZ+wL._AC_SX425_.jpg\"></div><div class=\"my-1 px-1 w-full overflow-hidden sm:my-1 sm:px-1 sm:w-1/2 md:my-1 md:px-1 md:w-1/2 lg:my-1 lg:px-1 lg:w-1/2 xl:my-1 xl:px-1 xl:pl-4 xl:w-1/2\"><div class=\"flex justify-between px-2\"><span class=\"text-xl\">Price</span><span class=\"font-semibold text-4xl\">€ 20</span></div><div class=\"flex flex-col px-2 py-1\"><span class=\"text-lg font-medium\">Item description</span><p class=\"pt-2 text-base\"> Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aeneanommodo ligula eget dolor. Aenean massa. Cum sociis natoque Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. </p></div><div class=\"relative px-2 py-1 mt-4 mr-8 lg:mr-12\"><select class=\"block appearance-none w-full border border-gray-500 text-gray-700 py-2 px-4 mr-40 rounded leading-tight\"><option>Select dog</option><option>Select dog</option><option>Select dog</option></select><div class=\"pointer-events-none absolute inset-y-0 right-0 flex items-center px-2 text-gray-700\"><svg class=\"fill-current h-4 w-4\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 20 20\"><path d=\"M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z\"></path></svg></div></div><div class=\"flex items-center justify-between mt-4\"><button class=\"flex text-white font-semibold bg-orange-600 rounded border-0 py-2 px-6 focus:outline-none\"><svg class=\"flex-1 w-6 md:w-4 lg:w-6 pr-1 pt-1\" viewBox=\"0 0 15 15\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M4.5 12C3.675 12 3.0075 12.675 3.0075 13.5C3.0075 14.325 3.675 15 4.5 15C5.325 15 6 14.325 6 13.5C6 12.675 5.325 12 4.5 12ZM0 0V1.5H1.5L4.2 7.1925L3.1875 9.03C3.0675 9.24 3 9.4875 3 9.75C3 10.575 3.675 11.25 4.5 11.25H13.5V9.75H4.815C4.71 9.75 4.6275 9.6675 4.6275 9.5625L4.65 9.4725L5.325 8.25H10.9125C11.475 8.25 11.97 7.9425 12.225 7.4775L14.91 2.61C14.97 2.505 15 2.3775 15 2.25C15 1.8375 14.6625 1.5 14.25 1.5H3.1575L2.4525 0H0ZM12 12C11.175 12 10.5075 12.675 10.5075 13.5C10.5075 14.325 11.175 15 12 15C12.825 15 13.5 14.325 13.5 13.5C13.5 12.675 12.825 12 12 12Z\" fill=\"white\"></path></svg> Add to cart </button><button class=\"flex text-orange-500 font-semibold rounded border-2 border-orange-500 py-2 px-6 focus:outline-none\"><svg class=\"flex-1 w-8 md:w-6 lg:w-8 pr-1 pt-1\" viewBox=\"0 0 18 13\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M17.3327 2.83336H9.83268V4.50002H17.3327V2.83336ZM17.3327 9.50002H9.83268V11.1667H17.3327V9.50002ZM3.61602 6.16669L0.666016 3.21669L1.84102 2.04169L3.60768 3.80836L7.14102 0.275024L8.31602 1.45002L3.61602 6.16669ZM3.61602 12.8334L0.666016 9.88336L1.84102 8.70836L3.60768 10.475L7.14102 6.94169L8.31602 8.11669L3.61602 12.8334Z\" fill=\"#FF6C00\"></path></svg> Add to wishlist </button></div></div>", 2);
+var _hoisted_2 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<div class=\"my-1 px-1 w-full rounded overflow-hidden sm:my-1 sm:px-1 sm:w-1/2 md:my-1 md:px-1 md:w-1/2 lg:my-1 lg:px-1 lg:w-1/2 xl:my-1 xl:px-1 xl:w-1/2\"><img alt=\"Dog Tags\" class=\"w-full h-5/6 object-fit object-center rounded border border-gray-200\" src=\"https://m.media-amazon.com/images/I/71cPvIqZ+wL._AC_SX425_.jpg\"></div><div class=\"my-1 px-1 w-full overflow-hidden sm:my-1 sm:px-1 sm:w-1/2 md:my-1 md:px-1 md:w-1/2 lg:my-1 lg:px-1 lg:w-1/2 xl:my-1 xl:px-1 xl:pl-4 xl:w-1/2\"><div class=\"flex justify-between px-2\"><span class=\"text-xl\">Price</span><span class=\"font-semibold text-4xl\">€ 20</span></div><div class=\"flex flex-col px-2 py-1\"><span class=\"text-lg font-medium\">Item description</span><p class=\"pt-2 text-base\"> Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aeneanommodo ligula eget dolor. Aenean massa. Cum sociis natoque Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. </p></div><div class=\"relative px-2 py-1 mt-4 mr-8 lg:mr-12\"><select class=\"block appearance-none w-full border border-gray-500 text-gray-700 py-2 px-4 mr-40 rounded leading-tight\"><option>Select dog</option><option>Select dog</option><option>Select dog</option></select><div class=\"pointer-events-none absolute inset-y-0 right-0 flex items-center px-2 text-gray-700\"><svg class=\"fill-current h-4 w-4\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 20 20\"><path d=\"M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z\"></path></svg></div></div><div class=\"flex items-center justify-between mt-4\"><button class=\"flex text-white font-semibold bg-orange-600 rounded border-0 py-2 px-6 focus:outline-none\"><svg class=\"flex-1 w-6 md:w-4 lg:w-6 pr-1 pt-1\" viewBox=\"0 0 15 15\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M4.5 12C3.675 12 3.0075 12.675 3.0075 13.5C3.0075 14.325 3.675 15 4.5 15C5.325 15 6 14.325 6 13.5C6 12.675 5.325 12 4.5 12ZM0 0V1.5H1.5L4.2 7.1925L3.1875 9.03C3.0675 9.24 3 9.4875 3 9.75C3 10.575 3.675 11.25 4.5 11.25H13.5V9.75H4.815C4.71 9.75 4.6275 9.6675 4.6275 9.5625L4.65 9.4725L5.325 8.25H10.9125C11.475 8.25 11.97 7.9425 12.225 7.4775L14.91 2.61C14.97 2.505 15 2.3775 15 2.25C15 1.8375 14.6625 1.5 14.25 1.5H3.1575L2.4525 0H0ZM12 12C11.175 12 10.5075 12.675 10.5075 13.5C10.5075 14.325 11.175 15 12 15C12.825 15 13.5 14.325 13.5 13.5C13.5 12.675 12.825 12 12 12Z\" fill=\"white\"></path></svg> Add to cart </button><button class=\"flex text-orange-500 font-semibold rounded border-2 border-orange-500 py-2 px-6 focus:outline-none\"><svg class=\"flex-1 w-8 md:w-6 lg:w-8 pr-1 pt-1\" viewBox=\"0 0 18 13\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M17.3327 2.83336H9.83268V4.50002H17.3327V2.83336ZM17.3327 9.50002H9.83268V11.1667H17.3327V9.50002ZM3.61602 6.16669L0.666016 3.21669L1.84102 2.04169L3.60768 3.80836L7.14102 0.275024L8.31602 1.45002L3.61602 6.16669ZM3.61602 12.8334L0.666016 9.88336L1.84102 8.70836L3.60768 10.475L7.14102 6.94169L8.31602 8.11669L3.61602 12.8334Z\" fill=\"#FF6C00\"></path></svg> Add to wishlist </button></div></div>", 2);
 
 var _hoisted_4 = [_hoisted_2];
 function render(_ctx, _cache, $props, $setup, $data, $options) {

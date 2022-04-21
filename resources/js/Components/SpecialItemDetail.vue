@@ -1,6 +1,6 @@
 <template>
     <div class="flex flex-wrap -mx-1 overflow-hidden sm:-mx-1 md:-mx-1 lg:-mx-1 xl:-mx-1">
-        <div class="my-1 px-1 w-full overflow-hidden sm:my-1 sm:px-1 sm:w-1/2 md:my-1 md:px-1 md:w-1/2 lg:my-1 lg:px-1 lg:w-1/2 xl:my-1 xl:px-1 xl:w-1/2">
+        <div class="my-1 px-1 w-full rounded overflow-hidden sm:my-1 sm:px-1 sm:w-1/2 md:my-1 md:px-1 md:w-1/2 lg:my-1 lg:px-1 lg:w-1/2 xl:my-1 xl:px-1 xl:w-1/2">
             <img alt="Dog Tags" class="w-full h-5/6 object-fit object-center rounded border border-gray-200" src="https://m.media-amazon.com/images/I/71cPvIqZ+wL._AC_SX425_.jpg">
         </div>
 
@@ -46,6 +46,6 @@
 </template>
 <script>
 export default {
-    
+
 }
 </script>
